@@ -1,2 +1,111 @@
-# Web-Biodata
-Web
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="pakaian.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Web Pribadi</title>
+</head>
+
+<body style="margin: 0 ;">
+    <div class="container-fluid p-5 bg-dark text-white">
+        <div class="row align-items-center">
+
+            <div class="col-md-3">
+                <img src="uhamka.png" alt="Logo UHAMKA" class="img-fluid" style="height: 100px;">
+            </div>
+    
+            
+            <div class="col-md-6 text-center">
+                <h1>Welcome to Sheva ilham Website</h1>
+                <h2>Web berisi biodata saya</h2>
+            </div>
+
+            <div class="col-md-3 text-end">
+                <img src="capucino.jpeg" alt="Foto Saya" class="img-fluid" style="height: 100px; border-radius: 50%;">
+            </div>
+        </div>
+    </div>
+
+    <div id="nav" class="row">
+        <ul class="nav justify-content-center">
+        <li class="nav-item col container-fluid p-2 bg-secondary" ><a class="nav-link text-center text-body" href="PemrogramanWeb.html" class="nav-link" >PemrogramanWeb</a> </li>
+        <li class="nav-item col container-fluid p-2 bg-info" ><a class="nav-link text-center text-body" href="Photo.html" class="nav-link">Foto</a> </li>
+        <li class="nav-item col container-fluid p-2 bg-success" ><a class="nav-link text-center text-body" href="Video.html" class="nav-link">Video</a> </li>
+        <li class="nav-item col container-fluid p-2 bg-light" ><a class="nav-link text-center text-body" href="Musik.html" class="nav-link">Musik</a></li>
+    </ul>
+    </div>
+
+    <div id="badan" class="row">
+        <div id="bar" class="container-fluid p-2 bg-success text-white col-2">
+            <ul class="navbar-nav">
+                <li class="nav-item" style="text-align:center;"><a href="PemrogramanWeb.html" class="nav-link text-white">Pemrograman Web</a></li>
+                <li class="nav-item" style="text-align:center;"><a href="Photo.html" class="nav-link text-white">Foto</a></li>
+                <li class="nav-item" style="text-align:center;"><a href="Video.html" class="nav-link text-white">Video</a></li>
+                <li class="nav-item" style="text-align:center;"><a href="Musik.html" class="nav-link text-white">Musik</a></li>
+            </ul>
+
+
+        </div>
+
+    <div id="utama" class="col-10" style="background-image:url(paramore.jpg);padding:8px">
+        <div id="artikel">
+    <p>Saya seorang mahasiswa semester 4 jurusan <b>Sistem dan Teknologi Informasi UHAMKA.</b> 
+        <br>Pada website ini akan <i>menampilkan foto maupun video</i> tentang saya <i>dan juga musik</i> Saya jago bermain Benedetta
+    </p>
+<p>About Me</p>
+<ul type="square" > 
+    <li>Skill yang saya miliki :
+        <ol type="1">
+          <li><a href="PemrogramanWeb.html">PemrogramanWeb</a></li>
+             <div id="Web" class="penjelasan">
+            Pemrograman web adalah proses membangun dan mengelola interaksi antara pengguna dan situs web melalui bahasa pemrograman, seperti HTML, CSS, dan JavaScript, untuk menciptakan pengalaman web yang interaktif dan dinamis
+            Definisi: Pemrograman web adalah cabang ilmu pemrograman komputer yang berfokus pada pengembangan aplikasi yang beroperasi di web browser atau server. Tujuan: Pemrograman web bertujuan untuk membangun dan mengelola interaksi antara pengguna dan situs web, menciptakan pengalaman yang dinamis dan interaktif. 
+             </div>
+          <li>Berenang</li>
+             <div id="Web" class="penjelasan">
+            Olahraga satu satunya yang saya bisa hanya berenang, saya mulai mempelajari renang mulai dari tk, dan sekarang saya sudah lumayan bisa untuk menjadi atlit
+             </div>
+          <li>Menginstall Software</li>
+              <div id="Web" class="penjelasan">
+             skill yang saya memiliki adalah menginstall software. Mulai dari installation OS, hingga software maupun driver yang dibutuhkan oleh komputer
+              </div>  
+          <li>Mobile Legends</li>
+              <div id="Web" class="penjelasan">
+            Skill terpendam saya adalah bisa menamatkan mobile legend ke mythic dalam waktu 8 jam saja dari warrior ke mythic
+              </div>
+        
+        </ol>
+    </li>
+    <li>Sedikit Memori
+        <ol type="A">
+            <li><a href="Photo.html">Photos</a></li>
+            <li><a href="Video.html">Video</a></li>  
+            <li><a href="Musik.html">Music</a></li>
+        </ol>
+    </li>
+</ul>
+
+</div> 
+
+    <div id="galery" style="text-align: center;">
+<p><b><u>Sebuah video tutorial yang saya ikuti</u></b></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I2ixasErNck?si=rH13Ca4Hb7A4PwPV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<figure>
+    <figcaption><b><u>My Photos</u></b></figcaption>
+    <img width="300" height="300" src="mecylagi.jpg">
+    <img width="300" height="300" src="yunjin.jpeg">
+    <img width="300" height="300" src="olip.jpg">
+</figure>
+
+</div>
+
+</div>
+
+<div id="footer" style="background-color:rgb(156, 48, 156) ; text-align: center;color: silver; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 40px; padding: 8px;">
+<h2>Thank You</h2>
+</div>
+</body>
+</html>
