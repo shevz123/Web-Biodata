@@ -1,0 +1,30 @@
+#header{
+    background-color: rgb(106, 218, 32); 
+    text-align:center ; 
+    color: rgb(56, 34, 178); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 24px; 
+    padding: 4px;
+
+}
+
+#artikel{
+    padding-top: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 18px; 
+    color: white;
+}
+
+.pilihan{
+    color: honeydew;
+    font-size: 16px;
+}
+
+.penjelasan{
+    width: 400px;
+    height: 110px;
+    background-color: white; 
+    color: black; 
+    overflow: scroll;
+     border: thin 4px;
+}

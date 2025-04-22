@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Nama:</td><td><input type="text" id="nama" name="nama" required placeholder="Nama" class="form-control form-control-sm" style="width:200px"> </td>
+            </tr>
+            <tr>
+                <td>Password:</td><td><input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" class="form-control form-control-sm" style="width:200px" > </td>
+            </tr>
+            <tr>
+                <td>Nomor Telepon:</td><td><input type="text" id="phone" name="phone" pattern="[0-9]{12}" class="form-control form-control-sm"  style="width:200px"> </td>
+            </tr>
+            <tr>
+                <td>Email:</td><td><input type="email" id="nama" name="nama" class="form-control form-control-sm" style="width:200px" > </td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir:</td><td><input type="date" id="nama" name="nama"> </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                <input type="radio" id="cowok" name="Kelamin" value=1 class="form-check-input">
+                <label for="cowok" class="form-check-label">Laki-laki</label>
+                <input type="radio" id="cewek" name="Kelamin" value=2 class="form-check-input">
+                <label for="cowok" class="form-check-label">Perempuan</label>
+            </td>
+            </tr>
+
+            <tr><td>Les yang ingin diikuti</td>
+            <td>
+                <input type="checkbox" id="html" name="html" value="html" class="form-check-input">
+                <label for="html"class="form-check-label"> html</label>
+                <input type="checkbox" id="css" name="css" value="css" class="form-check-input">
+                <label for="css" class="form-check-label"> css</label>
+                <input type="checkbox" id="javascript" name="javascript" value="javascript" class="form-check-input">
+                <label for="javascript" class="form-check-label"> javascript</label>
+                <input type="checkbox" id="PHP" name="PHP" value="PHP" class="form-check-input">
+                <label for="PHP" class="form-check-label"> PHP</label>
+            </td>
+        </tr>
+        <tr><td>Tingkat Pendidikan</td>
+        <td>
+            <select name="pendidikan" id="pendidikan" style="width: 100px;" class="form-select"> 
+                <option value="SD">SD</option>
+                <option value="SMP">SMP</option>
+                <option value="SMA">SMA</option>
+                <option value="Kuliah">Kuliah</option>
+            </select>
+
+        </td> 
+        </tr>
+
+        <tr>
+            <td>Upload CV</td> <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td> Komentar dan Saran</td>
+            <td><textarea id="komentar" rows="4" cols="50"></textarea></td>
+        </tr>
+
+
+
+        </table>
+        <input type="submit" value="kirim" class="btn btn-success" style="width: 100px"; margin-left: 300px;">
+
+    </form>
+</body>
+</html>
